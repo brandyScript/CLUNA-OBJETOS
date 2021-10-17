@@ -1,0 +1,137 @@
+/* ---NAVBAR--- */
+ul li a:hover{
+background-color: white;
+border: 1px solid;
+border-radius: 2rem;
+
+}
+
+/* ---HEADER--- */
+.header{
+background-color: rgb(250, 249, 249);
+padding : 2rem 0;
+background-image: linear-gradient(to bottom, rgb(134, 134, 134) , rgb(221, 221, 221) , rgb(250, 249, 249));
+
+}
+
+/* ---ARTICULOS--- */
+.row{
+    display: flex;
+    color: rgb(214, 167, 39);
+    padding-top: 3rem;
+
+}
+
+/* ---H1--- */
+h1{
+    color: rgb(214, 167, 39);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5rem;
+
+}
+
+.col-center{
+    float: none;
+    margin: 0 auto;
+
+}
+
+/* ---IMAGEN--- */
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+/* ---CAROUSEL--- */
+.carrousel-inner img{
+width: 640px;
+height: 360px;
+
+}
+
+.contenedoruno{
+display: flex;
+align-items: center;
+justify-content: center;    
+}
+
+
+/* ---DROPDOWN--- */
+
+.container{
+    display: flex;
+    align-items:stretch;
+ 
+    
+}
+.contacto {
+  color: rgb(85, 91, 110);
+  
+}
+
+.contactanos{
+text-align: center;
+}
+
+.aceptatyc{
+  color: rgb(85, 91, 110);
+}
+
+// EXTEND
+
+.pagoscluna{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ grid-template-columns: 1fr 1fr 1fr;
+ grid-column-gap: 4%;
+
+}
+
+.pagoscluna--nueva{
+ @extend .pagoscluna;
+ color: black;
+
+ padding-top: 3rem;
+
+}
+
+.button{
+    border-radius: 8rem;
+     border: 1px solid;
+}
+
+// MIXIN
+
+@mixin container($ancho, $alto, $color,) {
+  width: $ancho;
+  height: $alto;
+  background-color: $color;
+  border-radius: 25%;
+  
+ 
+
+} 
+
+.pago_uno{
+  @include container(150px, 50px, #33D374)
+}
+.pago_dos{
+  @include container(150px, 50px, #108EFF)
+}
+.pago_tres{
+  @include container(150px, 50px, #e2f34a)
+}
+
+.contenedorinfo{
+    display:flex;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 10%;
+    
+}

@@ -1,0 +1,37 @@
+.card {
+  margin: 2rem;
+  max-width: 300px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+
+  &--promouno {
+  background: goldenrod;
+
+  &--promodos {
+  color: white;
+
+  &--promotres {
+  background: goldenrod
+
+
+} 
+
+}
+
+}
+
+
+}
+
+
+
+  .contenedorpromo{
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr;
+   grid-column-gap: 2%;
+   grid-row-gap: 2%;
+   align-items: center;
+   justify-content: center;
+  }

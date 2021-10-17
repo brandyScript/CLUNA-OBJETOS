@@ -1,0 +1,172 @@
+/* ---NAVBAR--- */
+ul li a:hover {
+  background-color: white;
+  border: 1px solid;
+  border-radius: 2rem;
+}
+
+/* ---HEADER--- */
+.header {
+  background-color: #faf9f9;
+  padding: 2rem 0;
+  background-image: linear-gradient(to bottom, #868686, #dddddd, #faf9f9);
+}
+
+/* ---ARTICULOS--- */
+.row {
+  display: flex;
+  color: #d6a727;
+  padding-top: 3rem;
+}
+
+/* ---H1--- */
+h1 {
+  color: #d6a727;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+.col-center {
+  float: none;
+  margin: 0 auto;
+}
+
+/* ---IMAGEN--- */
+.img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---CAROUSEL--- */
+.carrousel-inner img {
+  width: 640px;
+  height: 360px;
+}
+
+.contenedoruno {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ---DROPDOWN--- */
+.container {
+  display: flex;
+  align-items: stretch;
+}
+
+.contacto {
+  color: #555b6e;
+}
+
+.contactanos {
+  text-align: center;
+}
+
+.aceptatyc {
+  color: #555b6e;
+}
+
+.pagoscluna, .pagoscluna--nueva {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 4%;
+}
+
+.pagoscluna--nueva {
+  color: black;
+  padding-top: 3rem;
+}
+
+.button {
+  border-radius: 8rem;
+  border: 1px solid;
+}
+
+.pago_uno {
+  width: 150px;
+  height: 50px;
+  background-color: #33D374;
+  border-radius: 25%;
+}
+
+.pago_dos {
+  width: 150px;
+  height: 50px;
+  background-color: #108EFF;
+  border-radius: 25%;
+}
+
+.pago_tres {
+  width: 150px;
+  height: 50px;
+  background-color: #e2f34a;
+  border-radius: 25%;
+}
+
+.contenedorinfo {
+  display: flex;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10%;
+}
+
+/*GRIDS*/
+.contenedor {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+}
+.contenedor img {
+  width: 100%;
+  transition: all 0.5;
+}
+.contenedor img:hover {
+  opacity: 0.5;
+  transform: scale(1.3);
+}
+
+.contenedor img:hover {
+  opacity: 0.5;
+  transform: scale(1.3);
+}
+
+.contenedorimagen {
+  overflow-y: hidden;
+  margin-bottom: 15px;
+}
+
+.card {
+  margin: 2rem;
+  max-width: 300px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
+}
+.card--promouno {
+  background: goldenrod;
+}
+.card--promouno--promodos {
+  color: white;
+}
+.card--promouno--promodos--promotres {
+  background: goldenrod;
+}
+
+.contenedorpromo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 2%;
+  grid-row-gap: 2%;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=style.css.map */
