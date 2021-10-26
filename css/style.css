@@ -129,6 +129,7 @@ h4{
 .contenedor {
   display: grid;
   padding: 2px;
+  box-sizing: border-box;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-column-gap: 2%;
