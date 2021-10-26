@@ -154,7 +154,7 @@ h4{
 
 .card {
   margin: 2rem;
-  max-width: 600px;
+  max-width: 100%;
   padding: 2rem;
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
 }
